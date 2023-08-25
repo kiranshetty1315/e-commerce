@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'jost',sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+#navbarNav{
+    justify-content: end;
+    margin-right: 150px;
+}
+.nav-item a{
+    margin-right: 15px;
+    transition: all 0.42s ease;
+}
+.nav-item a:hover {
+  color: red;
+}
+
+.navbar-brand img{
+  position: relative;
+  left: 200px;
+  width: 150px;
+  height: auto;
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 120px;
+}
+
+.nav-icon i {
+  margin-right: 30px;
+  font-size: 25px;
+  
+  transition: all 0.42s ease;
+}
+
+ .nav-icon i:hover {
+  transform: scale(1.1);
+  color: red;
+}
+  
+  
+/*---------------banner------------------*/
+
+#maincon{
+    position: relative;
+    padding: 0px 0px;
+    background-image: url('images/slider-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    background-position: 75%;
+  }
+
+  #submain {
+    position: relative;
+    top: 250px;
+    left: 50px; 
+    transform: translate(-50%, -50%);
+    text-align:left;
+    color: black;
+    padding: 20px;
+    max-width: 35%; 
+  }
+  
+  @media (max-width: 775px) {
+    #submain {
+        position: absolute;
+        top: 250px;
+        left: 0;
+        right: 0;
+        max-height: 100vh;
+        overflow: auto;
+    }
+}
+
+#btn{
+    color: white;
+    background-color: red;
+    width: 90px;
+    height: 45px;
+    border: none;
+    margin-top: 15px;
+}
+#sale{
+    color: red;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+#percentage{
+  font-family: 'Cinzel', serif;
+  letter-spacing: 10px;
+  font-size: 35px;
+}
+
+
+/*------------------------with us-------------------*/
+
+#hh {
+    position: relative;
+}
+
+#hh::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -15px; 
+    width: 100%;
+    height: 6px;
+    background-color: red;
+}
+
+
+/*-------------------------new-arrival-------------*/
+.custom-column {
+    background-color: #D4CED0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+
+
+.arrc {
+    padding: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.arrc h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px !important;
+}
+
+.arrc p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+#btn:hover {
+    background-color: darkred;
+}
+
+
+
+/*------------------------PRODUCT------------------*/
+
+#clr{
+    color: red;
+    font-family: 'Noto Serif KR', serif;
+
+}
+.row h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 75px;
+}
+
+imagee{
+    position:absolute;
+    z-index: -1;
+}
+#pro{
+    position: relative;
+    font-family: 'Noto Serif KR', serif;
+}
+#pro::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -15px; 
+    width: 100%;
+    height: 6px;
+    background-color: red; 
+    
+
+}
+
